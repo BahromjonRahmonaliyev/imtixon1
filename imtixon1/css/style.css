@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  /* border: 3px solid red; */
+}
+
+header {
+  height: auto;
+  /* border: 3px solid red; */
+  padding: 50px 0px;
+}
+
+.header-top {
+  height: 50px;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-ul {
+  /* border: 3px solid red; */
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo-ul ul {
+  display: flex;
+  gap: 21px;
+}
+
+.header-logo-ul > ul > li > a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #150C01;
+  opacity: 0.6;
+}
+
+.header-top  .btn {
+  background: #DC780B;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-family: 'Roboto';
+  border: none;
+  transition: 0.1s;
+}
+
+.header-top  .btn a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.header-top .btn:active {
+  background: transparent;
+  border: 2px solid #DC780B;
+  color: #DC780B;
+  transition: 0.1s;
+}
+
+/* header-center start */
+.header-center {
+  padding-top: 174px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-center .left-box {
+  width: 555px;
+  height: auto;
+  /* border: 3px solid red; */
+}
+
+.header-center .right-box {
+  width: 601px;
+  height: 470px;
+  /* border: 3px solid red; */
+  background-image: url(/img/header-center-rasm.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-center .left-box h1 {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48.83px;
+  line-height: 58px;
+  color: #150C01;
+  margin: 0px;
+}
+
+.header-center .left-box p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+  padding: 40px 0px;
+  margin: 0px;
+}
+
+.header-center .left-box .header-center-btn {
+  width: 400px;
+  height: auto;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.header-center .left-box .header-center-btn button {
+  background: transparent;
+  border-radius: 5px;
+  padding: 20px 40px;
+  border: 2px solid #DC780B;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DC780B;
+  transition: 0.5s;
+}
+
+.header-center .left-box .header-center-btn button:nth-child(1):hover {
+  background: #DC780B;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+}
+
+.header-center .left-box .header-center-btn button:nth-child(2):hover {
+  background: #DC780B;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+}
+
+/* header-footer start */
+.header-footer {
+  padding-top: 174px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-footer .header-footer-left {
+  width: 40%;
+  height: 400px;
+  background: url(/img/header-footer-rasm.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  /* border: 3px solid red; */
+}
+
+.header-footer .header-footer-right {
+  width: 487px;
+  height: auto;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-footer .header-footer-right b {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+  opacity: 0.7;
+}
+
+.header-footer .header-footer-right h3 {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.25px;
+  line-height: 41px;
+  color: #150C01;
+  padding-top: 10px;
+  margin: 0px;
+}
+
+.header-footer .header-footer-right p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+  padding-top: 30px;
+  margin: 0px;
+}
+
+.header-footer .header-footer-right button {
+  padding-top: 30px;
+  background: #DC780B;
+  border-radius: 5px;
+  padding: 12px 35px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.header-footer .header-footer-right a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.5px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* section-top start */
+section {
+  height: auto;
+  /* border: 3px solid red; */
+  padding: 50px 0px;
+}
+
+.section-top {
+  height: 150px;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-top b {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+.section-top h2 {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 24px;
+  color: #150C01;
+  margin-top: 20px;
+}
+
+.section-top p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #150C01;
+  opacity: 0.7;
+  width: 748px;
+  height: 64px;
+  margin-top: 20px;
+}
+
+/* section-center start */
+.section-center {
+  width: 100%;
+  height: auto;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 160px;
+  margin-bottom: 60px;
+}
+
+.section-start {
+  max-width: 360px;
+  height: 446px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 75px 10px 10px 10px;
+  margin-top: 30px;
+}
+
+.section-center .section-start .top-rasm {
+  width: 100%;
+  height: 250px;
+  background: url(/img/section-center-rasm.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 75px 10px 75px 10px;
+}
+
+.section-center .section-start .top-rasm2 {
+  width: 100%;
+  height: 250px;
+  background: url(/img/section-center-salat-rasm.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 75px 10px 75px 10px;
+}
+
+.section-center .section-start .top-rasm3 {
+  width: 100%;
+  height: 250px;
+  background: url(/img/section-center-burger-rasm.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 75px 10px 75px 10px;
+}
+
+.section-center .section-start .top-rasm4 {
+  width: 100%;
+  height: 250px;
+  background: url(/img/section-center-steak-rasm.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 75px 10px 75px 10px;
+}
+
+.section-center .section-start .top-rasm5 {
+  width: 100%;
+  height: 250px;
+  background: url(/img/section-center-egg-rasm.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 75px 10px 75px 10px;
+}
+
+.section-center .section-start .top-rasm6 {
+  width: 100%;
+  height: 250px;
+  background: url(/img/section-center-peach-rasm.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 75px 10px 75px 10px;
+}
+
+.section-center .section-start .text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 3px solid red; */
+}
+
+.section-center .section-start .text h4 {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 24px;
+  color: #150C01;
+  padding: 10px 25px;
+  margin: 15px 0px;
+}
+
+.section-center .section-start .box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0px 25px;
+}
+
+.section-center .section-start p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+  padding: 0px 25px;
+  margin: 0px;
+}
+
+.section-center .section-start .box .squre {
+  width: 36px;
+  height: 34px;
+  background: #DC780B;
+  border-radius: 5px;
+}
+
+.section-center button {
+  padding: 15px 30px;
+  margin-top: 30px;
+  border: 2px solid #DC780B;
+  border-radius: 5px;
+  transition: 0.5s;
+  background: transparent;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DC780B;
+}
+
+.section-center button:hover {
+  padding: 15px 30px;
+  margin-top: 30px;
+  border: 2px solid #DC780B;
+  border-radius: 5px;
+  transition: 0.5s;
+  background: #DC780B;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+/* section-footer start */
+.section-footer {
+  width: 100%;
+  height: 300px;
+  /* border: 3px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 117px 0px;
+  background: hsl(31, 47%, 89%);
+  flex-direction: column;
+}
+
+.section-footer .input_dropdown {
+  height: 75px;
+  /* background: #911b1b; */
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.section-footer .input_dropdown input {
+  border: 2px solid rgb(158, 156, 156);
+  height: 69px;
+  flex: 1;
+  outline: none;
+  border-radius:20px  0px 0px 20px;
+  text-indent: 30px;
+}
+.section-footer .input_dropdown button {
+  background: #DC780B;
+  border-radius: 0px 10px 10px 0px;
+  padding: 16.5px 60px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 41px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.section-footer b{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+  opacity: 0.7;
+  margin: 20px;
+}
+.section-footer h1{
+  width: 749px;
+  height: 61px;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 41px;
+  text-align: center;
+  color: #150C01;
+  margin: 0px;
+}
+/* footer-top start */
+footer{
+  /* border: 3px solid red; */
+  height: auto;
+  padding: 50px 0px;
+  background: #252423;
+}
+.footer-top{
+  width: 100%;
+  height: auto;
+  /* border: 3px solid red; */
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-center{
+  width: 70%;
+  height: auto;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+.footer-center ul li:nth-child(1){
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.footer-center ul li:nth-child(2){
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
